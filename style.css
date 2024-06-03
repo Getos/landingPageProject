@@ -1,0 +1,135 @@
+
+
+.titleBox{
+    background-color: #1f2937;   
+    border-color: aqua;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    padding-left: 10%;
+}
+.linksContainer {
+    display: flex;
+    gap: 12px;
+    margin-left: auto; /* Pushes links to the right */
+    margin-right: 10%;
+}
+.box1{
+    font-size: 24px;
+    color: #F9FAF8;
+    border-radius: 20px;
+}
+.box2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    
+}
+.box2:visited {
+    color: white; 
+}
+
+.box2:hover {
+    color: aqua;
+}
+
+.belowHeader{
+    background-color: #1f2937;
+    display: flex; 
+    justify-content:space-between;  
+    padding-left: 10%;
+    padding-top: 12px; /* Add padding to the top for spacing */
+    padding-bottom: 12px; 
+}
+#descriptionParagraph{
+    padding-right: 18px; /* Add padding to create space between text and image */
+    flex: 1
+}
+.descriptionHeader{
+font-size: 48px;
+color: #F9FAF8;
+font-weight: 800;
+}
+.descriptionsubHeader{
+    text-wrap: pretty;
+    color: #F9FAF8;
+    }
+#signupButton{
+    background-color: lightskyblue;
+    color: #1f2937; /* Adjust color for better contrast */
+    border: none;
+    padding: 10px 20px;
+    margin: 12px;
+    cursor: pointer;
+    font-weight: 600; /* Make the button text bold */
+    border-radius: 15px;
+
+}
+#imageHolder{
+    margin-right: 10%;
+}
+.imageTitleLandingpage{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px;
+}
+.imageContainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.imageBox{
+    border: 1px solid #3382f6;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+}
+.quotes{
+    background-color: #e5e7eb;
+    padding: 36px 90px 36px 90px;
+
+}
+.quoteitallic{
+    font-size: 24px;
+    text-align: center;
+    font-style: light italic;
+    text-wrap: wrap;
+    padding: 36px 90px 36px 90px;
+    
+}
+.quoteBold{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
+}
+.callForActionBox{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 90px;
+    margin-left: 90px;
+    background-color: #95bffe;
+    justify-content: space-between;
+    padding-left: 36px;
+    padding-right: 36px;
+    gap: 24px;
+}
+#smallTextSignup{
+    font-size: 14px;
+}
+.callText{
+    font-size: 24px;
+}
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #F9FAF8;
+}
